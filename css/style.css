@@ -1,0 +1,11 @@
+body{
+    background: #54d454;
+}
+
+.container-fluid>row h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.2em;
+    text-shadow: 4px 4px 4px #393939;
+    font-weight: bold;
+    text-align: center;
+}
