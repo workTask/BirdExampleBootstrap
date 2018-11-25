@@ -2,6 +2,25 @@ body {
     background: #a8a194;
 }
 
+ul,li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+h1,h2{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2.8em;
+    text-shadow: 4px 4px 4px #393939;
+    font-weight: bold;  
+}
+h2{
+    font-size: 2.1em; 
+}
+.header{
+    justify-content: center;
+}
+
 .container-fluid{
     margin-bottom: 10px;
 }
@@ -12,32 +31,108 @@ body {
     background: #54d454;
     padding: 0 10px;
     margin: 0 -5px;
-   
+}
+.menu{
+    padding-top: 11px;
 }
 
-.navbar{
-    margin-top: 10px;
-    background: #29e929;
+.menu__item{
+    margin: 0 55px;
 }
-span{
-    font-family: 'Cinzel Decorative', serif;
-    font-size: 1.2em;
-    text-shadow: 4px 4px 4px #393939;
-    font-weight: bold;
+.menu__item a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #010101;
+    text-decoration: none;
+}
+#menu_container{
+    background: #29e929;
+    margin-bottom: 10px;
+}
+#logo_block{
+    text-align: center;
 }
 
 p{
-    font-size: 26px;
+    font-size: 24px;
     margin: 43px 0;
-    text-align: left;
+    padding-bottom: 10px;
+}
+#text_so{
+    padding-bottom: 40px;
 }
 .box{
     height: 170px;
     width: 170px;
 }
-.block-left{
+.block{
     margin: 10px 0;
-    padding: 10px 10px;
+    padding: 10px auto;
     background: #29e929;
-    
+    padding: 10px;
 }
+#block_left{
+    padding: 10px 40px;
+}
+#content_block{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo_img{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo_text,#favorite,#welcome,.text-left{
+        font-size:1.5em;
+    }
+    .box,logo_img{
+        width: 100%;
+    }
+    ul,li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo_text,#favorite,#welcome{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo_text,#favorite,#welcome,.text-left{
+        font-size:1.2em;
+    }
+    .box,logo_img{
+        width: 100%;
+    }
+    ul,li {
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    .logo_img{
+        display: block;
+        margin: 0 auto;
+    }
+    .logo_text,#favorite,#welcome,.text-left{
+        font-size:0.9em;
+    }
+    .box,logo_img{
+        width: 100%;
+    }
+    ul,li {
+        display: block;
+        text-align: center;
+        font-size:0.9em;
+    }
+   
+}
+.panel-footer{
+    background: #54d454;
+    padding: 0 10px;
+    margin: 0 -5px;
+}
+

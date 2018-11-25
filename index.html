@@ -17,39 +17,48 @@
     </head>
     <body>
         <!************************************** HEADER*********************************>
-            <header>
+            <header class="header">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 text-center"><h1><span>BIRDWACHING</span></h1></div>
-                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-sm  hidden-xs text-right">
-                            <img src="images/orel.png">
+                        <div class="col-md-11 col-lg-11" id="logo_block" ><h1 class="logo_text">BIRDWACHING</h1></div>
+                            <div class="col-md-1 col-lg-1"><img class="logo_img" src="images/orel.png"></div>
+                        <div class="col-xs-12 col-lg-12">
+                            <!************************************** MENU********************************>
+                            <div class="col-lg-12 " id="menu_container">
+                                <nav>
+                                    <ul class="menu">
+                                        <li class="menu__item"><a href="#">HOME</a></li>
+                                        <li class="menu__item"><a href="#">GET STARTED</a></li>
+                                        <li class="menu__item"><a href="#">PHOTOS</a></li>
+                                        <li class="menu__item"><a href="#">GEAR</a></li>
+                                        <li class="menu__item"><a href="#">FORUM</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!***************************************************************************>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                   
-                        <nav class="navbar">fdgfgfg</nav>
-                    </div>
                     </div>
                     
                 </div>
+             
             </header>
         <!**************************************CONTENT*********************************>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 text-center ">
-                        <div class="block-left">
-                        <h2><span>WELCOME</span></h2>
-                        <p>Welcome to Vika Ftantsuh site. If this were a real site, it would be the
+                <div class="row" id="content_block" >
+                    <div class="col-xs-8 col-lg-8 ">
+                        <div class="block" id="block_left" >
+                         <h2 class="text-center" id="welcome">WELCOME</h2>
+                        <p class="text-left">Welcome to Vika Ftantsuh site. If this were a real site, it would be the
                         ideal place to come to learn more about birdwatching, whether you are a
                         beginner looking to learn how to get into birding, or an expert wanting to
                         share deas, tips, and photos with other like-minded people.</p>
-                        <p>So don't waste time! Get what you need, then turn off that computer and get
-                            out into the great outdoors!</p>
+                        <p class="text-left" id="text_so">So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center"> 
-                        <div class="block-left">
-                            <h2><span>FAVORITE<br>PHOTOS</span></h2>
+                    <div class="col-xs-4 col-lg-4 text-center"> 
+                        <div class="block" id="block_right" >
+                            <h2 class="right_block" id="favorite">FAVORITE<br>PHOTOS</h2>
                             <img class="box" src="images/bird1.png">
                             <img class="box" src="images/bird2.png">
                             <img class="box" src="images/bird3.png">
@@ -63,8 +72,8 @@
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.
+                    <div class="col-xs-12 col-lg-12 text-center">
+                        <p class="text-left">This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.
                             <a href="#"><br>Dove icon</a> by Lorc.</p>
                     </div>
                 </div>
