@@ -21,6 +21,6 @@ $(document).ready(function(){
 //add CONTACT in  menu 
 $(document).ready(function() {
     $("#panelForum").click(function () {
-        $("ul").append("<li> CONTACTS </li>");
+        $("ul").append("<li class=\"menu__item\"> CONTACTS </li>");
     });
 });
