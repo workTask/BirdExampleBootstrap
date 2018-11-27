@@ -17,3 +17,10 @@ $(document).ready(function(){
         $(this).css({ 'height': '200px', 'width': '200px' });
     });
 });
+
+//add CONTACT in  menu 
+$(document).ready(function() {
+    $("#panelForum").click(function () {
+        $("ul").append("<li> CONTACTS </li>");
+    });
+});
