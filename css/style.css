@@ -75,21 +75,16 @@ p{
     padding: 10px 40px;
 }
 #content_block{
-    display: flex;
+   
     justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
-    .logo_img{
-        display: block;
-        margin: 0 auto;
-    }
+
     .logo_text,#favorite,#welcome,.text-left{
         font-size:1.5em;
     }
-    .box,logo_img{
-        width: 100%;
-    }
+   
     ul,li {
         display: block;
         text-align: center;
@@ -97,6 +92,10 @@ p{
 }
 
 @media screen and (max-width: 992px) {
+    .col-md-8{
+        width: 100%;
+    }
+
     .logo_text,#favorite,#welcome{
         display: block;
         margin: 0 auto;
@@ -104,25 +103,20 @@ p{
     .logo_text,#favorite,#welcome,.text-left{
         font-size:1.2em;
     }
-    .box,logo_img{
-        width: 100%;
-    }
+    
     ul,li {
         display: block;
         text-align: center;
     }
 }
 @media screen and (max-width: 576px) {
-    .logo_img{
-        display: block;
-        margin: 0 auto;
-    }
+    
+ 
+ 
     .logo_text,#favorite,#welcome,.text-left{
         font-size:0.9em;
     }
-    .box,logo_img{
-        width: 100%;
-    }
+   
     ul,li {
         display: block;
         text-align: center;
