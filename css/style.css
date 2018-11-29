@@ -18,7 +18,11 @@ h2{
     font-size: 2.1em; 
 }
 .header{
+    height: 30%;
     justify-content: center;
+}
+#content{
+    height: 50%;
 }
 
 .container-fluid{
@@ -78,9 +82,14 @@ p{
    
     justify-content: center;
 }
+@media screen and (max-width: 1200px) {
+    .box{
+        width: 50%;
 
+    }
+}
 @media screen and (max-width: 1024px) {
-
+  
     .logo_text,#favorite,#welcome,.text-left{
         font-size:1.5em;
     }
@@ -125,6 +134,7 @@ p{
    
 }
 .panel-footer{
+    height: 18%;
     background: #54d454;
     padding: 0 10px;
     margin: 0 -5px;
